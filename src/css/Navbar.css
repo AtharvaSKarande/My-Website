@@ -1,0 +1,24 @@
+.navbar__nav {
+  background-color: #252525;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+}
+
+.navbar-brand {
+  padding: 0px 10px 0px 10px;
+}
+
+.navbar-nav .nav-link {
+  margin: 2px 5px 2px 5px;
+}
+
+.nav-item {
+  margin: 0px 5px 0px 5px;
+}
+
+.active {
+  background-color: #191919;
+  border-radius: 8px;
+}
