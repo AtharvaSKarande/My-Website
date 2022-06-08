@@ -1,0 +1,20 @@
+.error__err404 {
+  margin: 2rem;
+  font-size: 100px;
+  color: #ff3333;
+}
+
+.error__page_not_found {
+  font-size: 30px;
+  color: #eeeeee;
+}
+
+.error__page_not_found__desc {
+  color: #eeeeee;
+  font-size: 20px;
+  margin: 0% 15% 0% 15%;
+}
+
+.btn {
+  margin-top: 75px;
+}
