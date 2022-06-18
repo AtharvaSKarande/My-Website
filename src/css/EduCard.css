@@ -1,0 +1,40 @@
+.EduCard_back {
+  margin: 50px 40px 25px 40px;
+  width: 550px;
+  transition-duration: 0.25s;
+}
+
+.EduCard_back:hover {
+  transform: scale(1.2);
+}
+
+.EduCard_header {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px 20px 10px 20px;
+  width: inherit;
+  font-size: 24px;
+}
+
+.EduCard_body {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  width: inherit;
+  border-width: 1px;
+  font-size: 18px;
+  padding: 10px 10px 0px 10px;
+}
+
+.EduCard_footer {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: inherit;
+  border-style: solid;
+  border-width: 1px;
+  font-size: large;
+  padding: 10px;
+}

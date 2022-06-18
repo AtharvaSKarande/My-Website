@@ -8,6 +8,8 @@
 
 .navbar-brand {
   padding: 0px 10px 0px 10px;
+  margin: auto;
+  margin-left: 15px;
 }
 
 .navbar-nav .nav-link {

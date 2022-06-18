@@ -4,7 +4,7 @@ import "../css/Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar__nav navbar-expand-lg navbar-dark ">
-      <NavLink className="navbar-brand" style={{ marginLeft: `15px` }} to="/">
+      <NavLink className="navbar-brand" to="/">
         ASK
       </NavLink>
 
