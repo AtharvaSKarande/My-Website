@@ -9,9 +9,9 @@
 }
 
 .EduCard_header {
-  background-color: rgba(255, 255, 255, 0.4);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   border-style: solid;
   border-width: 1px;
   padding: 10px 20px 10px 20px;
@@ -20,7 +20,7 @@
 }
 
 .EduCard_body {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
   border-style: solid;
   width: inherit;
   border-width: 1px;
@@ -29,9 +29,9 @@
 }
 
 .EduCard_footer {
-  background-color: rgba(255, 255, 255, 0.4);
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   width: inherit;
   border-style: solid;
   border-width: 1px;

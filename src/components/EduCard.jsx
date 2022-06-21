@@ -6,15 +6,21 @@ const EduCard = (props) => {
       <div className="EduCard_header">{props.Education.header}</div>
       <div className="EduCard_body">
         <h5>{props.Education.std}</h5>
-        <p>{"From : " + props.Education.from}</p>
-        <p>{"Institution type : " + props.Education.institute_type}</p>
+        <p>
+          {"From : " + props.Education.from}
+          <br />
+          {"Institution type : " + props.Education.institute_type}
+          <br />
+
+          {"Duration : " +
+            props.Education.duration +
+            " (" +
+            props.Education.years +
+            ")"}
+        </p>
       </div>
       <div className="EduCard_footer">
-        {"Duration : " +
-          props.Education.duration +
-          " (" +
-          props.Education.years +
-          ")"}
+        {"Location : " + props.Education.location}
       </div>
     </div>
   );
