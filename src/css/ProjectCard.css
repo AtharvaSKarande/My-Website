@@ -1,0 +1,52 @@
+.ProjectCard_back {
+  margin: 25px 30px 25px 30px;
+  padding: 10px;
+  width: 400px;
+  height: fit-content;
+  border-radius: 10px;
+  color: black;
+  transition: all ease 0.25s;
+}
+
+.Proj_title {
+  font-size: 24px;
+}
+
+.Proj_motive {
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+.Proj_desc {
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+.Proj_tools {
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Proj_one_tool {
+  background-color: #202020;
+  color: white;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 1px 8px 3px 8px;
+  border-radius: 5px;
+}
+
+.Proj_one_lang {
+  background-color: #252525;
+  color: rgb(255, 255, 255);
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 1px 8px 3px 8px;
+  border-radius: 5px;
+}

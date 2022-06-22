@@ -13,11 +13,14 @@ const Education = () => {
     return -1;
   });
   return (
-    <div className="EduCard_deck">
-      {Educations.map((item, index) => {
-        return <EduCard Education={item} key={item.id} />;
-      })}
-    </div>
+    <>
+      <div className="Edu_Title">Education</div>
+      <div className="EduCard_deck">
+        {Educations.map((item, index) => {
+          return <EduCard Education={item} key={item.id} />;
+        })}
+      </div>
+    </>
   );
 };
 

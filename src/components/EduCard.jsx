@@ -7,9 +7,10 @@ const EduCard = (props) => {
       <div className="EduCard_body">
         <h5>{props.Education.std}</h5>
         <p>
-          {"From : " + props.Education.from}
-          <br />
-          {"Institution type : " + props.Education.institute_type}
+          {"From (" +
+            props.Education.institute_type +
+            ") : " +
+            props.Education.from}
           <br />
 
           {"Duration : " +

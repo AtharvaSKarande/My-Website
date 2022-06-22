@@ -1,0 +1,9 @@
+.Project_Title {
+  margin-top: 10px;
+  font-size: xx-large;
+}
+.ProjectCard_deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
