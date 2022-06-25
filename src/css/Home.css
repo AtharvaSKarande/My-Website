@@ -13,8 +13,28 @@
 .home__desc {
   margin: 10px;
   padding: 25px 15px 25px 15px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(56, 139, 253, 0.15);
+  border-color: rgb(82, 122, 176);
+  border-style: solid;
   border-radius: 10px;
   font-size: 20px;
   margin: 0% 15% 0% 15%;
+}
+
+.home__social_deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home_social {
+  margin: 12px 7px 12px 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.home__social_img {
+  height: 40px;
+  width: 40px;
 }

@@ -31,14 +31,14 @@ const ProjectCard = (props) => {
             </div>
           );
         })}
-        <text
+        <div
           style={{
             fontSize: `18px`,
             margin: `-4px 2px 0px 2px`,
           }}
         >
           |
-        </text>
+        </div>
         {props.Project.languages.map((item, index) => {
           return (
             <div className="Proj_one_lang" key={index}>
