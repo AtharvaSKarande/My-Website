@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
@@ -8,9 +9,13 @@ import Home from "./pages/Home";
 import Internships from "./pages/Internships";
 import Projects from "./pages/Projects";
 
+import background from "/background.png";
 import "./App.css";
 
 const App = () => {
+  useEffect(() => {
+    document.body.background = background;
+  }, []);
   return (
     <div className="App">
       <Navbar />

@@ -10,6 +10,9 @@
 
 .Proj_title {
   font-size: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Proj_motive {
@@ -49,4 +52,9 @@
   margin-right: 3px;
   padding: 1px 8px 3px 8px;
   border-radius: 5px;
+}
+
+.Proj_git {
+  margin-left: auto;
+  padding-right: 3px;
 }

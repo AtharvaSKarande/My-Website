@@ -1,13 +1,7 @@
-import { useEffect } from "react";
-import HomeBg from "/Home_bg.webp";
 import logo from "../favicon.svg";
 import "../css/Home.css";
 
 const Home = () => {
-  useEffect(() => {
-    //document.body.background = HomeBg;
-  }, []);
-
   return (
     <div>
       <img className="home__photo" src={logo} />

@@ -28,6 +28,7 @@ const AllProjects = [
       "An android application is created which can conduct coding quizzes and give reward in the form of coins. App also provides previously asked interview questions from big Tech giants.",
     tools: ["Android", "Firebase"],
     languages: ["JAVA"],
+    github: "https://github.com/AtharvaSKarande/Coders_Hub",
   },
   {
     id: 4,
@@ -38,6 +39,7 @@ const AllProjects = [
       "Every postal package has a QR-Code paster on it. Whenever this QR code is scanned, the status of package is updated. Administrator can track/delete package from databse.",
     tools: ["Android", "Firebase"],
     languages: ["JAVA", "Kotlin"],
+    github: "https://github.com/AtharvaSKarande/Post_Navigator",
   },
   {
     id: 5,
@@ -98,6 +100,8 @@ const AllProjects = [
       "Developed a chess library from scratch. Average time taken by bot for move is 0.1, 0.9, 6.5 seconds for depth 2,3,4 respectively. Chess-bot can play nearly 800 ELO at depth 4.",
     tools: ["PyCharm", "Mini-Max", "PyGame"],
     languages: ["Python"],
+    github:
+      "https://github.com/AtharvaSKarande/Chess_Single_player_and_Mutiplayer",
   },
   {
     id: 11,
@@ -108,6 +112,8 @@ const AllProjects = [
       "Created a blockchain based voting system that can held the election process and display result at end of election. Election official, Administrator, Voter/Candidate roles for the election process. Admins are provided for the illitrate voters.",
     tools: ["React", "Metamask", "Ganache"],
     languages: ["JavaScript", "Solidity"],
+    github:
+      "https://github.com/AtharvaSKarande/BlockVote-Blockchain-based-voting-system",
   },
 ];
 
