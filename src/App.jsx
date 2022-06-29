@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import { useEffect } from "react";
 
 import Navbar from "./components/Navbar";
-import About from "./pages/About";
 import Education from "./pages/Education";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
@@ -24,7 +23,6 @@ const App = () => {
         <Route path="/education" element={<Education />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/internships" element={<Internships />} />
-        <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </div>

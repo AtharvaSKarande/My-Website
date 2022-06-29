@@ -1,0 +1,53 @@
+.InternCard_back {
+  margin: 50px;
+  padding: 10px;
+  width: 600px;
+  height: fit-content;
+  border-radius: 10px;
+  color: black;
+  transition-duration: 0.25s;
+  background-color: #6fff7c;
+}
+
+.InternCard_back:hover {
+  transform: scale(1.25);
+}
+
+.Intern_title {
+  font-size: 24px;
+  padding: 5px;
+}
+.Intern_desc {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.Intern_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.svg_cal {
+  margin-left: 5px;
+  margin-right: 3px;
+}
+.Intern_date {
+  background-color: #202020;
+  color: white;
+  margin-left: 3px;
+  margin-right: auto;
+  padding: 1px 8px 3px 8px;
+  border-radius: 5px;
+}
+.Intern_location {
+  background-color: #202020;
+  color: white;
+  margin-left: auto;
+  padding: 1px 8px 3px 8px;
+  border-radius: 5px;
+}
+.svg_loc {
+  margin-left: 3px;
+  margin-right: 5px;
+}

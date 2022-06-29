@@ -1,0 +1,10 @@
+.Intern_Title {
+  margin-top: 10px;
+  font-size: xx-large;
+}
+
+.InternCard_deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
