@@ -6,7 +6,7 @@ const Educations = [
     institute_type: "School",
     from: "Sane Guruj Primary School",
     location: "Hadapsar, Pune",
-    duration: "2006 - 20011",
+    duration: "2006 - 2011",
     years: "6 years",
   },
   {

@@ -1,10 +1,11 @@
 import logo from "../favicon.svg";
+import profilePic from "/profilePic.png";
 import "../css/Home.css";
 
 const Home = () => {
   return (
     <div>
-      <img className="home__photo" src={logo} />
+      <img className="home__photo" src={profilePic} />
       <p className="home__name">Atharva Sunil Karande</p>
       <p className="home__desc">
         👋Hi! This is Atharva. A student of Indian Institute of Information
